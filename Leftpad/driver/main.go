@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jonbodner/leftpad"
+	"github.com/Sputnik10g/GO-lang/edit/master/Leftpad"
 )
 
 func main() {
