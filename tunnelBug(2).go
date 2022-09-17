@@ -9,9 +9,7 @@ tunnel contemporaneamente, tornano al punto di partenza (immediatamente). Una pa
 attraversa il tunnel in un secondo (time.Sleep(time.Second)).
 ● Una persona non può lanciare una pallina finché quella che ha lanciato precedentemente non è 
 arrivata a destinazione o non ha incontrato una pallina che andava in senso contrario.
-● Ci sono due gruppi di palline e due routine che lanciano le palline da un capo all’altro. Le routine 
-attendono un tempo casuale (time.Sleep(time.Duration(rand.Intn(2))*time.Second)) prima di 
-lanciare una nuova palla. Le routine finiscono quando nel relativo gruppo le palline finiscono.
+● Ci sono due gruppi di palline e due routine che lanciano le palline da un capo all’altro.
 */
 
 package main
