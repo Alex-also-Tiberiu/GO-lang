@@ -1,3 +1,20 @@
+/**
+Scrivete un programma che simuli un lavoro fatto da tre operai, ognuno dei quali deve usare un 
+martello, un cacciavite e un trapano per fare un lavoro. Devono usare il cacciavite DOPO il trapano e 
+il martello in un qualsiasi momento. Ovviamente, possono fare solo un lavoro alla volta. Gli attrezzi a 
+disposizione sono: due trapani, un martello e un cacciavite, quindi I tre operai devono aspettare di 
+avere a disposizione gli attrezzi per usarli. Modellate questa situazione minimizzando il più possibile le 
+attese.
+● Creare la struttura Operaio col relativo campo “nome”.
+● Creare la strutture Martello, Cacciavite e Trapano che devono essere “prese” dagli operai.
+● Nelle function che creerete, inserite una stampa che dica quando l’operaio x ha preso l’oggetto y e 
+quando ha finito di usarlo.
+● Hint sulla logica: ogni operaio può avere solo un oggetto alla volta e ogni oggetto può essere in mano 
+a un solo operaio.
+● Per assicurarmi che ogni operaio abbia in mano un solo oggetto, posso mettere ogni operaio in un 
+channel, e prima di cercare di prendere un oggetto...
+*/
+
 package main
 
 import (
