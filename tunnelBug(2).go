@@ -1,5 +1,5 @@
 /**
-Vi è dato un programma (che trovate su Moodle: tunnelBug.go) che simuli la seguente situazione:
+Vi è dato un programma che simuli la seguente situazione:
 ● Ci sono due gruppi di palline G1 e G2 in due luoghi diversi L1 e L2 uniti da un tunnel. In L1 e in 
 L2 ci sono due persone P1 e P2.
 ● La persona P1 vuole lanciare tutte le palline in G1 da L1 a L2, e viceversa P2 vuole lanciare 
