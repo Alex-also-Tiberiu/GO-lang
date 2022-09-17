@@ -1,3 +1,7 @@
+/**
+Questo programma simula la coda di attesa di un prontosoccorso, 
+suddividendo i pazienti in base alla loro priorità, inoltre suddivide il lavoro dei medici disponibili.
+*/
 package main
 
 import "fmt"
