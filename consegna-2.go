@@ -1,3 +1,20 @@
+/**
+Scrivete un programma che simuli l’ordinazione, la cottura e l’uscita dei piatti in un ristorante. 10 clienti 
+ordinano contemporaneamente i loro piatti. In cucina vengono preparati in un massimo di 3 alla volta, 
+essendoci solo 3 fornelli. Il tempo necessario per preparare ogni piatto è fra i 4 e i 6 secondi. Dopo che 
+un piatto viene preparato, viene portato fuori da un cameriere, che impiega 3 secondi a portarlo fuori. Ci 
+sono solamente 2 camerieri nel ristorante.
+● Creare la strutture Piatto e Cameriere col relativo campo “nome”.
+● Creare le funzioni ordina che aggiunge il piatto a un buffer di piatti da fare; creare la function cucina che 
+cucina ogni piatto e lo mette in lista per essere consegnato; creare la function consegna che fa uscire 
+un piatto dalla cucina.
+● Ogni cameriere può portare solo un piatto alla volta.
+● Usate buffered channels per svolgere il compito.
+● Attenzione: se per cucinare un piatto lo mandate nel buffer fornello di capienza 3 e lo ritirate dopo 3 
+secondi, non è detto che ritiriate lo stesso piatto che avete messo sul fornello. Tenetelo in memoria. 
+Ovviamente la vostra soluzione potrebbe differire dalla mia e questo hint potrebbe non servirvi.
+*/
+
 package main
 
 import (
