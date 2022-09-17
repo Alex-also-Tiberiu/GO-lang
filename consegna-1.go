@@ -1,3 +1,20 @@
+/***
+Scrivete un programma che simuli una agenzia di viaggi che deve gestire le prenotazioni per due 
+diversi viaggi da parte di 7 clienti. Ogni cliente fa una prenotazione per un viaggio in una delle due 
+mete disponibili (Spagna e Francia), ognuna delle quali ha un numero minimo di partecipanti per 
+essere confermata (rispettivamente 4 e 2).
+● Creare la struttura Cliente col relativo campo “nome”.
+● Creare la struttura Viaggio col rispettivo campo “meta”.
+● Creare la function prenota, che prende come input una persona e che prenota uno a caso dei due 
+viaggi.
+● Creare una function stampaPartecipanti che alla fine del processo stampa quali viaggi sono 
+confermati e quali persone vanno dove.
+● Ogni persona può prenotarsi al viaggio contemporaneamente.
+● Create tutte le classi e function che vi servono, ma mantenete la struttura data dalle due strutture e 
+le due function che ho elencato sopra.
+*/
+
+
 package main
 
 import (
